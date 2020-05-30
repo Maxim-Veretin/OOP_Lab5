@@ -15,6 +15,14 @@ namespace Forms_Lab5
         public Form1()
         {
             InitializeComponent();
+
+            hoverBut.imgs.Add(Properties.Resources.smork);
+            hoverBut.imgs.Add(Properties.Resources.smork1);
+            hoverBut.imgs.Add(Properties.Resources.smork2);
+
+            ellipseHoverBut.imgs.Add(Properties.Resources.smork);
+            ellipseHoverBut.imgs.Add(Properties.Resources.smork1);
+            ellipseHoverBut.imgs.Add(Properties.Resources.smork2);
         }
     }
 }

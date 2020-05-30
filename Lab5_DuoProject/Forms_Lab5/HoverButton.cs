@@ -12,7 +12,10 @@ namespace Forms_Lab5
     {
         private Color color = Color.LightGray;
         private string text = " ";
-        private Bitmap[] img = new Bitmap[3] { Properties.Resources.smork, Properties.Resources.smork1, Properties.Resources.smork2 };
+        
+        //public Bitmap[] img = new Bitmap[] { Properties.Resources.smork, Properties.Resources.smork1, Properties.Resources.smork2 };
+        public List<Bitmap> imgs = new List<Bitmap>();
+        
         private int i = 0;
         private StringFormat stringFormat;
 
@@ -30,18 +33,13 @@ namespace Forms_Lab5
         {
             base.OnPaint(pevent);
 
-            //pevent.Graphics.FillRectangle(new SolidBrush(color), ClientRectangle);
-
-            //Bitmap img = new Bitmap(Properties.Resources.smork);
-
-            pevent.Graphics.DrawImage(img[i], -img[i].Width/2.7f, -img[i].Height/4);
+            pevent.Graphics.DrawImage(imgs[i], 0, 0, Size.Width, Size.Height);
 
             Text = text;
             stringFormat = new StringFormat();
             stringFormat.Alignment = StringAlignment.Center;
             stringFormat.LineAlignment = StringAlignment.Center;
 
-            //pevent.Graphics.DrawString(galery[i].text, Font, new SolidBrush(ForeColor), ClientRectangle, stringFormat);
             pevent.Graphics.DrawString(Text, Font, new SolidBrush(ForeColor), ClientRectangle, stringFormat);
         }
 
@@ -51,6 +49,7 @@ namespace Forms_Lab5
 
             color = Color.DarkGray;
             text = "Ы";
+            ForeColor = Color.DarkOrange;
         }
 
         protected override void OnMouseLeave(EventArgs e)
@@ -65,7 +64,7 @@ namespace Forms_Lab5
         {
             base.OnMouseClick(e);
 
-            if (i == 2)
+            if (i == imgs.Count - 1)
                 i = 0;
             else
                 i++;

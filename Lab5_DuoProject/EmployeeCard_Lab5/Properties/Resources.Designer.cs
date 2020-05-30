@@ -83,9 +83,9 @@ namespace EmployeeCard_Lab5.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RicardoHerington {
+        internal static System.Drawing.Bitmap KliffBut {
             get {
-                object obj = ResourceManager.GetObject("RicardoHerington", resourceCulture);
+                object obj = ResourceManager.GetObject("KliffBut", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace EmployeeCard_Lab5.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Shcheglov {
+        internal static System.Drawing.Bitmap RicardoHerington {
             get {
-                object obj = ResourceManager.GetObject("Shcheglov", resourceCulture);
+                object obj = ResourceManager.GetObject("RicardoHerington", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

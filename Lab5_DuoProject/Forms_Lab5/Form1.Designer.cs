@@ -28,39 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hoverButton1 = new Forms_Lab5.HoverButton();
-            this.ellipseHoverButton1 = new Forms_Lab5.EllipseHoverButton();
+            this.hoverBut = new Forms_Lab5.HoverButton();
+            this.ellipseHoverBut = new Forms_Lab5.EllipseHoverButton();
             this.SuspendLayout();
             // 
-            // hoverButton1
+            // hoverBut
             // 
-            this.hoverButton1.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoverButton1.ForeColor = System.Drawing.Color.Black;
-            this.hoverButton1.Location = new System.Drawing.Point(12, 12);
-            this.hoverButton1.Name = "hoverButton1";
-            this.hoverButton1.Size = new System.Drawing.Size(337, 337);
-            this.hoverButton1.TabIndex = 0;
-            this.hoverButton1.Text = "SSS";
-            this.hoverButton1.UseVisualStyleBackColor = true;
+            this.hoverBut.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hoverBut.ForeColor = System.Drawing.Color.Black;
+            this.hoverBut.Location = new System.Drawing.Point(12, 12);
+            this.hoverBut.Name = "hoverBut";
+            this.hoverBut.Size = new System.Drawing.Size(337, 337);
+            this.hoverBut.TabIndex = 0;
+            this.hoverBut.Text = " ";
+            this.hoverBut.UseVisualStyleBackColor = true;
             // 
-            // ellipseHoverButton1
+            // ellipseHoverBut
             // 
-            this.ellipseHoverButton1.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ellipseHoverButton1.ForeColor = System.Drawing.Color.Black;
-            this.ellipseHoverButton1.Location = new System.Drawing.Point(359, 12);
-            this.ellipseHoverButton1.Name = "ellipseHoverButton1";
-            this.ellipseHoverButton1.Size = new System.Drawing.Size(337, 337);
-            this.ellipseHoverButton1.TabIndex = 1;
-            this.ellipseHoverButton1.Text = "ellipseHoverButton1";
-            this.ellipseHoverButton1.UseVisualStyleBackColor = true;
+            this.ellipseHoverBut.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ellipseHoverBut.ForeColor = System.Drawing.Color.Black;
+            this.ellipseHoverBut.Location = new System.Drawing.Point(359, 12);
+            this.ellipseHoverBut.Name = "ellipseHoverBut";
+            this.ellipseHoverBut.Size = new System.Drawing.Size(337, 337);
+            this.ellipseHoverBut.TabIndex = 1;
+            this.ellipseHoverBut.Text = " ";
+            this.ellipseHoverBut.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(708, 361);
-            this.Controls.Add(this.ellipseHoverButton1);
-            this.Controls.Add(this.hoverButton1);
+            this.Controls.Add(this.ellipseHoverBut);
+            this.Controls.Add(this.hoverBut);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -69,8 +69,8 @@
 
         #endregion
 
-        private HoverButton hoverButton1;
-        private EllipseHoverButton ellipseHoverButton1;
+        private HoverButton hoverBut;
+        private EllipseHoverButton ellipseHoverBut;
     }
 }
 

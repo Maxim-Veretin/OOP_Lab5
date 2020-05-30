@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="EmployeeCard_Lab5.Card"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EmployeeCard_Lab5"
+             mc:Ignorable="d" 
+             d:DesignHeight="240" Width="455">
+    <Grid Background="White">
+
+        <Image x:Name="cardImage" HorizontalAlignment="Left" Height="149" Margin="280,10,0,0" VerticalAlignment="Top" Width="148"/>
+
+        <Label Content="Имя:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="80" Background="WhiteSmoke"/>
+        <Label Content="Фамилия:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="26" Width="80" Background="WhiteSmoke"/>
+        <Label Content="Должность:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Height="26" Width="80" Background="WhiteSmoke"/>
+        <Label Content="Отдел:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Height="26" Width="80" Background="WhiteSmoke"/>
+        <Label Content="Статус:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Height="26" Width="80" Background="WhiteSmoke"/>
+
+        <Label x:Name="cardFirstNameLb" Content="" HorizontalAlignment="Left" Margin="95,10,0,0" VerticalAlignment="Top" Width="158" Background="WhiteSmoke"/>
+        <Label x:Name="cardSecondNameLb" Content="" HorizontalAlignment="Left" Margin="95,41,0,0" VerticalAlignment="Top" Width="158" Background="WhiteSmoke"/>
+        <Label x:Name="cardPositionLb" Content="" HorizontalAlignment="Left" Margin="95,72,0,0" VerticalAlignment="Top" Width="158" Background="WhiteSmoke"/>
+        <Label x:Name="cardDepartmentLb" Content="" HorizontalAlignment="Left" Margin="95,103,0,0" VerticalAlignment="Top" Width="158" Background="WhiteSmoke"/>
+        <Label x:Name="cardStatusLb" Content="" HorizontalAlignment="Left" Margin="95,134,0,0" VerticalAlignment="Top" Width="158" Background="WhiteSmoke"/>
+        
+        <Button x:Name="callBut" Content="Вызвать" Height="25" ToolTip="Начинает звонок" Margin="10,188,382,27" Click="callBut_Click"/>
+        <Button x:Name="writeBut" Content="Передать привет" Height="25" ToolTip="Пишем письмо" Margin="83,188,262,27" Click="writeBut_Click"/>
+        <Button x:Name="posholOtsydaBut" Content="Уволить" Height="25" ToolTip="Прощаемся" Margin="198,188,202,27" Click="posholOtsydaBut_Click"/>
+    </Grid>
+</UserControl>

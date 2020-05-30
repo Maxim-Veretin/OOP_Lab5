@@ -124,11 +124,11 @@
   <data name="Jotaro_Lena" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Jotaro_Lena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="KliffBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KliffBut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RicardoHerington" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RicardoHerington.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Shcheglov" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Shcheglov.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="van" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\van.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
